@@ -2,7 +2,7 @@
 
 큰 윤곽만 둔다. 강의 내용은 여기 없다. 튜터가 세션마다 학습자의 수준·목표·현장에 맞춰 조사하고 만든다.
 
-- 기본 순서는 F → P → L → Q → M → S → D → X다. 선수 관계만 지키면 학습자의 목표에 맞춰 순서를 바꿔도 된다. 식품 업종 학습자에게는 S6을, 안전 사고가 급한 현장에는 S1~S2를 앞당겨도 된다.
+- 기본 순서는 F → P1~P6 → L → P7 → Q → M → S → D → X다(P7은 L4를 선수로 둔다). 선수 관계만 지키면 학습자의 목표에 맞춰 순서를 바꿔도 된다. 식품 업종 학습자에게는 S6을, 안전 사고가 급한 현장에는 S1~S2를 앞당겨도 된다.
 - 목표 수준은 그 모듈을 마쳤다고 볼 최소 수준이다. 수준의 뜻은 [tutor/assessment.md](../tutor/assessment.md)에 있다.
 - 「국내 근거」는 그 모듈의 뼈대가 되는 국내 법령·고시·KS다. 「글로벌 비교」는 비교 축이다. 법령·표준 명칭은 「」로 쓰고 아래 출처 표에 공식 URL과 조회일을 둔다. 지도에는 조문 번호를 쓰지 않는다. 조문·기준값·적용 시기는 세션에서 튜터가 공식 출처로 확인한다([tutor/sources.md](../tutor/sources.md)).
 - 「경계·연결」은 다른 go-* 워크스페이스가 깊게 다루는 주제다. 여기서는 현장 운영 판단에 필요한 만큼만 다룬다.
@@ -127,7 +127,7 @@
 - 선수: L1
 - 핵심 질문: 정리정돈은 왜 청소가 아니라 이상을 드러내는 장치인가?
 - 목표: Apply — 한 작업장에 5S와 표준작업, 시각 관리를 설계하고, 표준작업을 작업자에게 가르치는 방법(TWI 작업지도)을 정한다.
-- 만들어 볼 것: 한 작업장의 5S 점검표와 표준작업표
+- 만들어 볼 것: 한 작업장의 5S 점검표, 표준작업표, 작업지도(TWI) 계획
 - 국내 근거: 실무 기준 — 국내 법령 직접 근거 없음(작업장 정리·통로 확보 같은 안전 기준은 S1에서)
 - 글로벌 비교: 도요타 공식 TPS 설명의 표준작업
 
@@ -178,13 +178,13 @@
 - 선수: Q2
 - 핵심 질문: 이번 불량은 공정이 바뀐 신호인가, 원래 있던 흔들림인가?
 - 목표: Apply — 측정값을 믿을 수 있는지(측정시스템 분석) 먼저 확인하고, 관리도로 이상 원인을 판단하고 공정능력 지수를 계산·해석한다.
-- 만들어 볼 것: 우리 공정 한 특성의 관리도와 Cp·Cpk 해석
+- 만들어 볼 것: 우리 공정 한 특성의 측정시스템 분석(Gage R&R) 결과, 관리도와 Cp·Cpk 해석
 - 국내 근거: 「KS Q ISO 7870-2」, 「KS Q ISO 22514-2」
 - 글로벌 비교: 「ISO 7870-2」, 「ISO 22514-2」
 - 경계·연결: 통계 추론·실험 설계 심화는 go-data-analytics.
 
 ### Q4 · 샘플링 검사와 수입·출하 검사
-- 선수: Q3
+- 선수: Q2
 - 핵심 질문: 전수검사를 하지 않고도 로트를 받아들일지 어떻게 정하는가?
 - 목표: Apply — AQL 기반 샘플링 계획을 읽고 검사 기준서를 만든다.
 - 만들어 볼 것: 주요 원자재 하나의 수입검사 기준서
@@ -204,8 +204,8 @@
 ### Q6 · TQM과 품질경영시스템
 - 선수: Q1
 - 핵심 질문: 품질을 검사 부서가 아니라 회사 전체의 일로 만드는 체계는 어떻게 생겼는가?
-- 목표: Apply — 「ISO 9001」 요구사항의 구조를 자기 회사 프로세스에 대응시키고, 부적합 처리와 시정 조치 흐름을 포함해 빈틈을 찾는다.
-- 만들어 볼 것: 우리 회사 품질매뉴얼 골격과 프로세스 대응표
+- 목표: Apply — 「ISO 9001」 요구사항의 구조를 자기 회사 프로세스에 대응시키고, 4M(사람·설비·자재·방법) 변경관리와 부적합 처리·시정 조치 흐름을 포함해 빈틈을 찾는다.
+- 만들어 볼 것: 우리 회사 문서화된 정보 체계와 프로세스 대응표, 4M 변경관리 규칙(2026판 전환 점검 포함 — 전환 기한은 인증기관 공지로 확인)
 - 국내 근거: 「산업표준화법」의 품질경영, 「KS Q ISO 9001」
 - 글로벌 비교: 「ISO 9001」, 데밍의 TQM 원칙
 
@@ -215,7 +215,7 @@
 - 목표: Evaluate — 자기 제품의 인증 대상 여부와 결함 예방 체계의 빈틈을 판단한다.
 - 만들어 볼 것: 우리 제품 인증·표시 점검표와 결함 예방 체크리스트
 - 국내 근거: 「산업표준화법」, 「전기용품 및 생활용품 안전관리법」, 「제품안전기본법」, 「제조물 책임법」
-- 글로벌 비교: 「EU 제조물책임 지침(2024/2853)」
+- 글로벌 비교: 「EU 제조물책임 지침(2024/2853)」, 「EU 일반제품안전규정(2023/988)」
 - 경계·연결: 제조물 책임 소송·계약 판단은 go-compliance-and-legal.
 
 ## M · 설비·유지보수
@@ -233,7 +233,7 @@
 - 핵심 질문: 고장 나면 고칠 설비, 날짜 맞춰 바꿀 부품, 상태를 보고 판단할 곳은 어떻게 가르는가?
 - 목표: Evaluate — 사후·예방·예지·신뢰성 중심 보전(RCM)을 설비별로 비교해 정한다.
 - 만들어 볼 것: 우리 핵심 설비 보전 전략 배정표
-- 국내 근거: 「KS A IEC 60300-3-11」(법정 안전검사 대상 설비는 S1에서 확인)
+- 국내 근거: 「KS A IEC 60300-3-11」(법정 안전검사 대상 설비는 go-hse S4에서 확인)
 - 글로벌 비교: 「IEC 60300-3-11」
 - 경계·연결: 설비 투자의 경제성 평가는 go-finance.
 
@@ -248,7 +248,7 @@
 ### M4 · 신뢰성 지표와 FMEA
 - 선수: M2
 - 핵심 질문: 어떤 고장이 가장 위험하고, 무엇부터 막아야 하는가?
-- 목표: Apply — MTBF·MTTR을 계산하고 FMEA로 고장 모드의 우선순위를 정한다.
+- 목표: Apply — MTBF·MTTR로 설비 신뢰성을 읽고, 설비·공정 FMEA로 고장·불량 모드의 우선순위를 정해 관리계획서에 잇는다.
 - 만들어 볼 것: 핵심 설비 하나의 FMEA 표
 - 국내 근거: 「KS A IEC 60812」
 - 글로벌 비교: 「IEC 60812」
@@ -262,7 +262,7 @@
 - 만들어 볼 것: 우리 설비 한 대의 표준작업·보전 절차 안전 기준 대조표(출처 링크 포함)
 - 국내 근거: 「산업안전보건기준에 관한 규칙」, 「KOSHA 기술지원규정(KOSHA GUIDE)」
 - 글로벌 비교: 「미국 산업안전보건법(OSH Act)」의 OSHA 기준, 「EU 산업안전보건 기본 지침(89/391/EEC)」
-- 경계·연결: 「산업안전보건법」의 의무 체계·공정안전관리(PSM)·안전보건교육은 go-hse.
+- 경계·연결: 「산업안전보건법」의 의무 체계·공정안전관리(PSM)·안전보건교육, 고위험 작업의 잠금·표지 절차 설계는 go-hse(S4). 여기서는 표준작업·보전 절차 안 대조까지.
 
 ### S2 · 위험성평가 결과를 공정 개선과 변경관리에 잇기
 - 선수: S1, F4
@@ -280,7 +280,7 @@
 - 만들어 볼 것: 우리 공장 통합 경영시스템 대응표와 월간 운영 달력
 - 국내 근거: 「KS Q ISO 9001」, 「KS I ISO 14001」, 「KS Q ISO 45001」, 「KOSHA-MS」
 - 글로벌 비교: 「ISO 9001」, 「ISO 14001」, 「ISO 45001」, 「FSSC 22000」, 영국 HSE의 「HSG65」
-- 경계·연결: 안전보건관리체계 구축 의무와 「중대재해 처벌 등에 관한 법률」의 의무는 go-hse, 사고 뒤 형사 책임은 go-compliance-and-legal.
+- 경계·연결: ISO 45001·14001·50001의 적용 범위 결정과 안전보건관리체계 구축 의무, 「중대재해 처벌 등에 관한 법률」의 의무는 go-hse(M2·C 영역), 사고 뒤 형사 책임은 go-compliance-and-legal. 여기서는 품질·식품안전 중심의 통합 운영 달력까지.
 
 ### S4 · 현장 사건 조사와 시정 조치
 - 선수: S2, L6
@@ -289,7 +289,7 @@
 - 만들어 볼 것: 최근 아차사고나 품질 사고 하나의 조사·시정 조치 보고서
 - 국내 근거: 실무 기준 — 국내 법령 직접 근거 없음(법정 산업재해 보고·조사 의무는 go-hse에서 확인)
 - 글로벌 비교: 「ISO 45001」의 사건 조사와 시정 조치, 「ISO 9001」의 부적합과 시정 조치
-- 경계·연결: 산업재해 보고·조사의 법적 의무는 go-hse.
+- 경계·연결: 산업재해 보고·조사의 법적 의무와 재해 재발 방지 보고서는 go-hse(S7). 여기서는 품질 사고와 아차사고의 공정 원인·시정 조치까지.
 
 ### S5 · 현장 환경 측면 운영
 - 선수: F1, Q6
@@ -298,7 +298,7 @@
 - 만들어 볼 것: 우리 라인 환경 측면 목록과 줄이기 계획
 - 국내 근거: 「폐기물관리법」(사업장폐기물이 걸리는 조건까지), 「KS I ISO 14001」
 - 글로벌 비교: 「ISO 14001」
-- 경계·연결: 화학물질 관리·배출시설 인허가·폐기물 처리 의무는 go-hse, 탄소 회계·온실가스·지속가능성 공시는 go-esg.
+- 경계·연결: 화학물질 관리·배출시설 인허가·폐기물 처리 의무, 에너지 신고·진단 의무는 go-hse(E 영역), 탄소 회계·온실가스·지속가능성 공시는 go-esg.
 
 ### S6 · 식품 안전과 HACCP
 - 선수: Q6
@@ -363,6 +363,9 @@
 | ERP·MES 선정·도입·IT 운영 | 계획·실행 데이터의 흐름과 현장 사용까지 | go-mis |
 | 통계 추론·회귀·실험 설계 심화 | SPC·공정능력·DMAIC에 필요한 통계까지 | go-data-analytics |
 | 개선 프로젝트의 일정·WBS·위험 관리 | 언급만 | go-project-management |
+| 대규모 리콜 위기 대응·업무연속성(BCP) | 회수 절차와 이력 추적의 현장 운영까지 | go-resilience |
+| 고객 불만·VOC 관리 | 불량·부적합의 공정 원인과 시정 조치까지 | go-cx |
+| 건물·사무 시설의 보전과 운영 | 생산 설비의 보전까지 | go-general-affairs |
 
 ## 이 지도에 넣지 않은 영역
 
@@ -374,21 +377,21 @@
 
 | 명칭 | 기관 | URL | 조회일 | 확인한 사실 |
 |---|---|---|---|---|
-| 「산업표준화법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1961093000000003&contSid=0103&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21438호(2026-03-10). KS 제품·서비스 인증 제도와 품질경영(품질경영 및 공산품안전관리법에서 2016년에 옮겨 온 장)을 둔다. 개정분 2027-03-16 시행 예정 |
-| 「전기용품 및 생활용품 안전관리법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1974010400000002&contSid=0063&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21065호(2025-10-01). 안전인증과 안전인증표시, 표시 없는 제품의 판매 금지를 둔다. 「KC」 문자는 법률 본문에 없다(하위 법령 미확인) |
-| 「제품안전기본법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=2010020400000007&contSid=0030&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21159호(2025-12-02 공포, 2026-06-03 시행). 정부의 수거등 권고·명령과 사업자의 수거등 의무를 둔다. 「리콜」이라는 낱말은 본문에 없다 |
-| 「제조물 책임법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=2000011200000010&contSid=0006&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제14764호(2018-04-19 시행), 소관 공정거래위원회. 결함을 제조상·설계상·표시상으로 나누고 면책 사유 넷을 두며, 결함을 알고도 조치하지 않으면 일부 면책을 주장할 수 없다 |
-| 「산업안전보건법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1981123100000008&contSid=0123&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제22122호(2026-10-27). 사업주의 위험성평가 실시 의무를 법률에 둔다(2026-06-01 시행 개정으로 근로자대표 참여·주지 신설). 2026-12~2027-10 시행 예정 개정분이 여럿 있다 |
-| 「산업안전보건기준에 관한 규칙」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1990072300000002&contSid=0150&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 고용노동부령 제450호(2025-09-01 공포, 2026-03-02 시행), 예정 개정분 없음(2026-11-14 기준) |
+| 「산업표준화법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%82%B0%EC%97%85%ED%91%9C%EC%A4%80%ED%99%94%EB%B2%95 | 2026-11-14 | 현행 법률 제21438호(2026-03-10). KS 제품·서비스 인증 제도와 품질경영(품질경영 및 공산품안전관리법에서 2016년에 옮겨 온 장)을 둔다. 개정분 2027-03-16 시행 예정 |
+| 「전기용품 및 생활용품 안전관리법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%A0%84%EA%B8%B0%EC%9A%A9%ED%92%88%20%EB%B0%8F%20%EC%83%9D%ED%99%9C%EC%9A%A9%ED%92%88%20%EC%95%88%EC%A0%84%EA%B4%80%EB%A6%AC%EB%B2%95 | 2026-11-14 | 현행 법률 제21065호(2025-10-01). 안전인증과 안전인증표시, 표시 없는 제품의 판매 금지를 둔다. 「KC」 문자는 법률 본문에 없다(하위 법령 미확인) |
+| 「제품안전기본법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%A0%9C%ED%92%88%EC%95%88%EC%A0%84%EA%B8%B0%EB%B3%B8%EB%B2%95 | 2026-11-14 | 현행 법률 제21159호(2025-12-02 공포, 2026-06-03 시행). 정부의 수거등 권고·명령과 사업자의 수거등 의무를 둔다. 「리콜」이라는 낱말은 본문에 없다 |
+| 「제조물 책임법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%A0%9C%EC%A1%B0%EB%AC%BC%20%EC%B1%85%EC%9E%84%EB%B2%95 | 2026-11-14 | 현행 법률 제14764호(2018-04-19 시행), 소관 공정거래위원회. 결함을 제조상·설계상·표시상으로 나누고 면책 사유 넷을 두며, 결함을 알고도 조치하지 않으면 일부 면책을 주장할 수 없다 |
+| 「산업안전보건법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EB%B2%95 | 2026-11-14 | 현행 법률 제22122호(2026-10-27). 사업주의 위험성평가 실시 의무를 법률에 둔다(2026-06-01 시행 개정으로 근로자대표 참여·주지 신설). 2026-12~2027-10 시행 예정 개정분이 여럿 있다 |
+| 「산업안전보건기준에 관한 규칙」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EA%B8%B0%EC%A4%80%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99 | 2026-11-14 | 현행 고용노동부령 제450호(2025-09-01 공포, 2026-03-02 시행), 예정 개정분 없음(2026-11-14 기준) |
 | 「사업장 위험성평가에 관한 지침」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/instruction/view.do?bbs_seq=20261100126 | 2026-11-14 | 고용노동부고시 제2026-73호로 전부개정(2026-11-04 게시). 시행일 확인 못 함 |
-| 「중대재해 처벌 등에 관한 법률」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=2021012600000027&contSid=0002&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 법률 제17907호(2021-01-26 제정, 2022-01-27 시행), 개정 이력 없음. 부칙: 상시 근로자 50명 미만 사업장(건설업은 공사금액 50억원 미만)은 공포 후 3년이 지난 날부터 적용. 고용노동부 보도자료로 2024-01-27 전면 적용 확인(https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=16136) |
+| 「중대재해 처벌 등에 관한 법률」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%A4%91%EB%8C%80%EC%9E%AC%ED%95%B4%20%EC%B2%98%EB%B2%8C%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0 | 2026-11-14 | 법률 제17907호(2021-01-26 제정, 2022-01-27 시행), 개정 이력 없음. 부칙: 상시 근로자 50명 미만 사업장(건설업은 공사금액 50억원 미만)은 공포 후 3년이 지난 날부터 적용. 고용노동부 보도자료로 2024-01-27 전면 적용 확인(https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=16136) |
 | 「KOSHA 기술지원규정(KOSHA GUIDE)」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/archive/statu-notic/tech-support/guide/overview | 2026-11-14 | 현행 명칭 「기술지원규정」. 공단이 제·개정하는 기술적 권고 지침이며 법적 구속력은 없다. 2026-01-30 437건 정비·공표, 정비 뒤 1,039건 운영(고용노동부 보도자료 https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=18911) |
 | 「KOSHA-MS」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/business-apply-search/other-business/mfg-system/info | 2026-11-14 | 공단의 안전보건경영시스템 인증. 산업안전보건법의 자율 안전보건경영체제 지원을 수행근거로 한다. 2019-07 KOSHA 18001에서 KOSHA-MS로 인증기준 전환. 사후심사 매년 1회 이상, 3년마다 연장심사. ISO 45001과의 관계를 공단이 직접 쓴 문장은 확인 못 함 |
-| 「폐기물관리법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1986123100000014&contSid=0159&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21129호(2026-11-12 시행), 소관 기후에너지환경부. 사업장폐기물을 배출시설 설치·운영 사업장 등에서 나오는 폐기물로 정의한다. 2027년 시행 예정 개정분 있음 |
-| 「식품위생법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1962012000000026&contSid=0208&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21525호(2026-10-08 시행). 식품안전관리인증기준(HACCP)과 위해식품등 회수 의무(회수계획 사전 보고)를 둔다. 2026-12-31 이후 시행 예정 개정분 여럿 |
-| 「축산물 위생관리법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1962012000000018&contSid=0113&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21525호(2026-10-08 시행). 축산물 안전관리인증기준을 둔다. 2026-12-31 시행 예정 개정분 있음 |
+| 「폐기물관리법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%ED%8F%90%EA%B8%B0%EB%AC%BC%EA%B4%80%EB%A6%AC%EB%B2%95 | 2026-11-14 | 현행 법률 제21129호(2026-11-12 시행), 소관 기후에너지환경부. 사업장폐기물을 배출시설 설치·운영 사업장 등에서 나오는 폐기물로 정의한다. 2027년 시행 예정 개정분 있음 |
+| 「식품위생법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%8B%9D%ED%92%88%EC%9C%84%EC%83%9D%EB%B2%95 | 2026-11-14 | 현행 법률 제21525호(2026-10-08 시행). 식품안전관리인증기준(HACCP)과 위해식품등 회수 의무(회수계획 사전 보고)를 둔다. 2026-12-31 이후 시행 예정 개정분 여럿 |
+| 「축산물 위생관리법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%B6%95%EC%82%B0%EB%AC%BC%20%EC%9C%84%EC%83%9D%EA%B4%80%EB%A6%AC%EB%B2%95 | 2026-11-14 | 현행 법률 제21525호(2026-10-08 시행). 축산물 안전관리인증기준을 둔다. 2026-12-31 시행 예정 개정분 있음 |
 | 「식품 및 축산물 안전관리인증기준」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_207/view.do?seq=15188 | 2026-11-14 | 식약처 고시. 최신 일부개정 제2026-60호(2026-08-11) |
-| 「중소기업 스마트제조혁신 촉진에 관한 법률」 | 중소벤처기업부 | https://www.mss.go.kr/site/smba/contents/view.do?menuCd=20103010000002024122811&siteCd=smba | 2026-11-14 | 약칭 스마트제조혁신법. 중기부 소관법률 목록 수록, 2023-07-04 시행 |
+| 「중소기업 스마트제조혁신 촉진에 관한 법률」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85%20%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%A0%9C%EC%A1%B0%ED%98%81%EC%8B%A0%20%EC%B4%89%EC%A7%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0 | 2026-11-14 | 법률 제19181호(2023-01-03 제정, 2023-07-04 시행), 소관 중소벤처기업부. 약칭 스마트제조혁신법 |
 | 「KS Q ISO 9001」 | 국가표준인증종합정보센터(국가기술표준원) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO9001&tmprKsNo=KSQISO9001 | 2026-11-14 | ISO 9001:2015+Amd1:2024와 부합(IDT), 최종 개정 2024-12-13. ISO 9001:2026과 판이 다르다 |
 | 「KS Q ISO 9000」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO9000&tmprKsNo=KSQISO9000 | 2026-11-14 | ISO 9000:2005 IDT로 표시(이력에는 2015-12-29 ISO 9000:2015 반영 개정이 있어 포털 기록이 어긋남), 최종 확인 2026-08-25. 국제판 ISO 9000:2026과 다르다 |
 | 「KS Q ISO 7870-2」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO7870-2&tmprKsNo=KSQISO7870-2 | 2026-11-14 | ISO 7870-2:2023 IDT, 최종 개정 2026-03-27 |
@@ -402,7 +405,7 @@
 | 「KS Q ISO 45001」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO45001&tmprKsNo=KSQISO45001 | 2026-11-14 | ISO 45001:2018 IDT, 최종 확인 2024-10-04 |
 | 「KS Q ISO 22000」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO22000&tmprKsNo=KSQISO22000 | 2026-11-14 | ISO 22000:2018 IDT, 최종 확인 2026-08-25 |
 | 「스마트공장 수준확인 사업」 | 중소벤처기업부·스마트제조혁신추진단 | https://www.smart-factory.kr/ | 2026-11-14 | 중소벤처기업부 공고 제2026-45호(2026-01-30)의 사업 명칭. 스마트화 수준확인서와 심사보고서를 준다. 공고 사본 https://gecci.korcham.net/file/dext5uploaddata/2026/2026년도%20스마트공장%20수준확인%20사업%20공고__.pdf (지원 규모는 해마다 바뀌므로 세션에서 공고로 확인) |
-| 「식품 등의 표시·광고에 관한 법률」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_203/list.do | 2026-11-14 | 정식 명칭 확인(식약처 법령 알림, 소관 식품표시광고정책과). 위해식품 의무회수의 근거 법 가운데 하나 |
+| 「식품 등의 표시·광고에 관한 법률」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=%EC%8B%9D%ED%92%88%20%EB%93%B1%EC%9D%98%20%ED%91%9C%EC%8B%9C%C2%B7%EA%B4%91%EA%B3%A0%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0 | 2026-11-14 | 현행 법률 제20826호(2025-03-18 공포, 2025-09-19 시행), 소관 식품의약품안전처. 위해식품 의무회수의 근거 법 가운데 하나(식약처 회수지침) |
 | 「식품 등 이력추적관리기준」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_207/view.do?seq=15169 | 2026-11-14 | 식약처 고시 제2026-39호(2026-05-15) 개정 |
 | 「위해식품등 회수지침」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_1059/view.do?seq=15143 | 2026-11-14 | 지침서(2025-02-17). 의무회수와 자율회수, 회수등급 1~3등급 |
 | 「HSG65」 | 영국 HSE | https://www.hse.gov.uk/pubns/books/hsg65.htm | 2026-11-14 | Managing for health and safety, 3판(2013). Plan-Do-Check-Act 운영 지침 |
@@ -424,7 +427,8 @@
 | 「미국 식품안전현대화법(FSMA)」 | 미국 FDA | https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma | 2026-11-14 | FDA FSMA 공식 안내 |
 | 「미국 산업안전보건법(OSH Act)」 | 미국 OSHA | https://www.osha.gov/laws-regs/oshact/completeoshact | 2026-11-14 | OSH Act of 1970 전문 |
 | 「EU 산업안전보건 기본 지침(89/391/EEC)」 | 유럽 산업안전보건청(EU-OSHA) | https://osha.europa.eu/en/legislation/directives/the-osh-framework-directive/the-osh-framework-directive-introduction | 2026-11-14 | 1989년 채택된 EU 산업안전보건의 기본 지침. 유럽 전역의 최소 요건이며 회원국은 더 엄격하게 정할 수 있다. 사업주의 위험성평가·예방 조치·정보 제공·교육·근로자 참여 의무를 정한다. 원문은 https://eur-lex.europa.eu/eli/dir/1989/391/oj (자동 조회는 첫 화면으로 돌아가 원문 미열람) |
-| 「EU 제조물책임 지침(2024/2853)」 | EUR-Lex 요약(유럽연합) | https://eur-lex.europa.eu/EN/legal-content/summary/defective-products-liability.html | 2026-11-14 | 2026-12-09 이후 출시·사용 개시된 제품에 적용되고, 그 전 제품은 종전 85/374/EEC 규율을 따른다. 회원국 이행 기한 2026-12-09(유럽의회 입법 요약 https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1795969). 원문 https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng |
+| 「EU 일반제품안전규정(2023/988)」 | 유럽의회 입법 관측소 | https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1745266 | 2026-11-14 | 2001/95/EC를 폐지하는 규정. 발효 2023-06-12, 적용 2024-12-13. 위험 제품을 안 사업자는 회수 등 시정 조치를 하고 소비자와 시장감시 당국에 알린다 |
+| 「EU 제조물책임 지침(2024/2853)」 | 유럽의회 입법 관측소 | https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1795969 | 2026-11-14 | 85/374/EEC를 폐지하는 지침. 2026-12-09 이후 출시·사용 개시된 제품에 적용, 발효 2024-12-08, 회원국 이행 기한 2026-12-09. EUR-Lex 원문 https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng 은 자동 조회로 열리지 않음 |
 
 학술·실무 출처(명칭 표기 없이 본문에서 쓰는 것):
 

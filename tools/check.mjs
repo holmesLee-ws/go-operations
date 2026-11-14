@@ -16,7 +16,7 @@ const LEVELS = ["Explain", "Apply", "Evaluate", "Develop"];
 const FIELDS = ["선수", "핵심 질문", "목표", "만들어 볼 것", "국내 근거", "글로벌 비교"];
 const OPTIONAL = ["경계·연결"];
 const AREAS = "FPLQMSDX";
-// R11 공식 출처 기관 도메인(spec R11 목록).
+// 공식 출처 기관 도메인: spec R11 목록 + 지도가 쓰는 원 기관(영국 HSE, FSSC, 스마트제조혁신추진단, EU 기관 하위 도메인).
 const OFFICIAL = ["law.go.kr", "likms.assembly.go.kr", "moel.go.kr", "mfds.go.kr", "kats.go.kr", "standard.go.kr", "me.go.kr", "mss.go.kr", "kosha.or.kr", "haccp.or.kr", "iso.org", "iec.ch", "fao.org", "osha.gov", "europa.eu", "legislation.gov.uk", "fda.gov", "fssc.com", "hse.gov.uk", "smart-factory.kr"];
 
 function parseCurriculum(text) {
@@ -80,8 +80,8 @@ function main() {
   const refLines = mapBody.split("\n").filter((l) => /^- (국내 근거|글로벌 비교|목표|경계·연결): /.test(l)).join("\n");
   // 「」 밖에 쓴 법령명(…법·시행령·규칙·지침·고시)을 잡는다.
   for (const l of mapBody.split("\n").filter((x) => /^- [^:]+: /.test(x))) {
-    const bare = l.replace(/「[^」]*」/g, "").match(/[가-힣]+(법|시행령|시행규칙|규칙|지침|고시)(?=[의은는이가을를과와도만에상으·,.\s)]|$)/g) || [];
-    for (const b of bare) if (!/^(방법|기법|문법|실무 기준)$/.test(b) && !/(방법|기법|사법|작업규칙|우선규칙|판정규칙)$/.test(b)) errors.push(`「」 없이 쓴 법령명 의심: ${b}`);
+    const bare = l.replace(/「[^」]*」/g, "").match(/[가-힣]+(법률|법|시행령|시행규칙|규칙|규정|지침|고시|기준)(?=[의은는이가을를과와도만에상으·,.\s)]|$)/g) || [];
+    for (const b of bare) if (!/(방법|기법|문법|사법|작업법|해법|요법|작업규칙|우선규칙|판정규칙|판정기준|한계기준|기준)$/.test(b) || /(인증기준|관리기준)$/.test(b)) errors.push(`「」 없이 쓴 법령명 의심: ${b}`);
   }
   const names = new Set([...refLines.matchAll(/「([^」]+)」/g)].map((m) => m[1]));
   for (const n of names) if (!sourceTable.includes(`「${n}」`)) errors.push(`출처 표에 없는 명칭: 「${n}」`);
@@ -100,7 +100,8 @@ function main() {
     for (const item of l.slice("- 국내 근거: ".length).split(/,\s*(?![^(]*\))/)) if (!/^「/.test(item.trim())) errors.push(`국내 근거 항목이 「」로 시작하지 않음: ${item.trim().slice(0, 30)}`);
   }
   // 하네스가 이름으로 부르는 모듈 id가 지도에 있는가
-  for (const f of ["CLAUDE.md", ...readdirSync(join(root, "tutor")).map((x) => `tutor/${x}`)]) {
+  const skillFiles = readdirSync(join(root, ".claude/skills")).map((s) => `.claude/skills/${s}/SKILL.md`).filter((f) => existsSync(join(root, f)));
+  for (const f of ["CLAUDE.md", "README.md", ...skillFiles, ...readdirSync(join(root, "tutor")).map((x) => `tutor/${x}`)]) {
     for (const m of read(f).matchAll(new RegExp(`\\b([${AREAS}]\\d+)\\b`, "g"))) if (!modules.has(m[1])) errors.push(`${f}: 지도에 없는 모듈 ${m[1]}`);
   }
   // R13: 겹침 경계 표

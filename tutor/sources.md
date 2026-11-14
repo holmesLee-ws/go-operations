@@ -21,22 +21,22 @@
 - 「사업장 위험성평가에 관한 지침」: 고시 개정으로 방법·주기가 바뀐 이력이 있다
 - 「식품 및 축산물 안전관리인증기준」, 「식품위생법」 시행규칙: HACCP 의무 적용 품목과 일정
 - 「제조물 책임법」과 「EU 제조물책임 지침(2024/2853)」: EU 지침은 회원국 이행 기한이 있다
-- ISO 9001·ISO 14001: 개정 작업이 진행 중일 수 있다. 판 번호를 말하기 전에 iso.org에서 현행판을 확인한다
+- ISO 9001·ISO 14001: 2026판이 나왔고 KS 부합판은 아직 2015판이다(지도 조회일 기준). 판 번호를 말하기 전에 아래 「ISO·IEC 표준」 칸 순서로 확인한다
 - FSSC 22000: 스킴 버전이 바뀐다
 - 스마트공장 지원 제도: 사업 공고가 해마다 바뀐다. 지원 금액·요건은 말하지 않고 공고 위치만 알려 준다
 
 ## 어디서 확인하는가
 
-먼저 `curriculum/map.md`의 출처 표에 있는 공식 URL을 연다. 그다음 아래 순서로 찾는다.
+먼저 `curriculum/map.md`의 출처 표에 있는 공식 URL을 연다. 국내 법령의 출처 표 URL은 국회법률정보시스템 목록 조회다. 거기서 그날의 현행 판(공포번호·contId·contSid)을 찾고 아래 「조회 경로」대로 그 판의 본문을 연다. 본문 URL은 개정판에 묶여 있어 저장해 두고 다시 쓰지 않는다. 그다음 아래 순서로 찾는다.
 
 | 대상 | 1순위 | 막히면 |
 |---|---|---|
-| 국내 법률·시행령·시행규칙 | 국가법령정보센터 law.go.kr | 국회법률정보시스템 likms.assembly.go.kr/law, 소관 부처 누리집의 법령 안내 |
+| 국내 법률·시행령·시행규칙 | 국회법률정보시스템 likms.assembly.go.kr/law(조회 경로 실측됨) | 국가법령정보센터 law.go.kr, 소관 부처 누리집의 법령 안내 |
 | 고시·지침(행정규칙) | law.go.kr 행정규칙 | 소관 부처(고용노동부 moel.go.kr, 식품의약품안전처 mfds.go.kr, 환경부 me.go.kr) 법령·고시 게시판 |
-| KOSHA GUIDE(기술지원규정)·KOSHA-MS | 한국산업안전보건공단 portal.kosha.or.kr(지도 출처 표의 화면 주소. 화면이 스크립트로 그려져 본문이 비면 막히면 칸으로) | 고용노동부 moel.go.kr 보도자료(기술지원규정 공표·정비계획) |
+| KOSHA GUIDE(기술지원규정)·KOSHA-MS | 한국산업안전보건공단 portal.kosha.or.kr(지도 출처 표의 화면 주소. 화면이 스크립트로 그려져 본문이 비면 오른쪽 칸으로) | 고용노동부 moel.go.kr 보도자료(기술지원규정 공표·정비계획) |
 | KS 표준 | e나라표준인증 standard.go.kr | 국가기술표준원 kats.go.kr |
 | HACCP 인증 | 식품의약품안전처 mfds.go.kr | 한국식품안전관리인증원 haccp.or.kr |
-| ISO·IEC 표준 | iso.org·iec.ch의 표준 페이지(판·상태) | — |
+| ISO·IEC 표준 | iso.org·webstore.iec.ch의 표준 페이지(판·상태). iec.ch는 읽히고, iso.org는 자동 조회에 403을 돌려줄 때가 많다(2026-11-14 실측) | KS 부합판은 standard.go.kr에서 확인한다. 국제 현행판이 끝내 안 열리면 「지도 조회일(YYYY-MM-DD) 기준 ○○판, 이번 세션에서는 다시 확인 못 함」이라고 말한다 |
 | 외국 법 | 원 기관(osha.gov, eur-lex.europa.eu, legislation.gov.uk, fda.gov) | — |
 | Codex | fao.org의 Codex 페이지 | — |
 
@@ -48,7 +48,7 @@ law.go.kr의 법령 페이지는 본문을 별도 창으로 불러오는 경우�
 |---|---|---|
 | KS 표준 상세 | `https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=<공백 뺀 KS 번호>&tmprKsNo=<같은 값>` (예: `KSQISO9001`). 부합 국제표준 판과 최종 개정·확인일이 나온다 | 본문에 표준명이 없음 → 목록 검색 `getStandardSearchList.do?menuId=919&topMenuId=502&upperMenuId=503&s_ksNo=<번호 일부>` |
 | 국내 법령 찾기(국회법률정보시스템) | `https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=<법령명>` — 표에서 공포번호·시행일과 상세 링크의 contId·contSid를 얻는다 | 결과 행이 없으면 법령명이 틀렸거나 없는 법이다(띄어쓰기 확인) |
-| 국내 법령 본문(국회법률정보시스템) | `https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=<contId>&contSid=<contSid>&cachePreid=ALL&viewGb=EXE&basicDt=<YYYYMMDD>` — 지도 출처 표의 국내 법령 URL이 이 형태다. 시행 예정 조문은 `[시행일 …]` 표시가 붙어 섞여 나온다 | `lawsLawtInqyDetl1010.do`(상세 껍데기)는 제목만 있고 본문이 없다 → 1030으로 바꾼다 |
+| 국내 법령 본문(국회법률정보시스템) | `https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=<contId>&contSid=<contSid>&cachePreid=ALL&viewGb=EXE&basicDt=<그 세션 날짜 YYYYMMDD>` — contId·contSid는 바로 위 목록 조회에서 그날 얻은 값을 쓴다. 본문의 공포번호를 목록의 공포번호와 대조한다. 시행 예정 조문은 `[시행일 …]` 표시가 붙어 섞여 나온다. 긴 법은 한 번에 다 읽히지 않으니, 찾는 장·조가 안 보이면 같은 URL을 이어 읽는다(WebFetch의 이어 읽기 또는 찾는 낱말을 넣어 다시 묻기) | `lawsLawtInqyDetl1010.do`(상세 껍데기)는 제목만 있고 본문이 없다 → 1030으로 바꾼다. 빈 페이지면 contSid가 낡은 것이다 → 목록 조회부터 다시 |
 | 국내 법령(국가법령정보센터) | (2026-11-14 21:00 점검 종료 뒤 실측해 채운다) | |
 | 고용노동부 고시 | `moel.go.kr/info/lawinfo/instruction/view.do?bbs_seq=<번호>` — 고시 번호·발령일·담당 부서가 읽힌다 | 본문·시행일은 hwpx 첨부에만 있어 WebFetch로 읽지 못한다 → 국가법령정보센터 행정규칙을 열거나, 못 열면 시행일은 「확인 못 함」 |
 
@@ -68,7 +68,7 @@ KS의 부합 국제표준 판은 국제 최신판과 다를 때가 많다(예: K
 
 ## 업무 산출물의 표시
 
-S 영역 전체, Q7, D3의 산출물과 X1에서 이 모듈들의 주제를 고른 산출물에는 파일 첫머리에 다음을 적는다(CSV는 첫 행에 이 문구를 한 칸으로).
+S 영역 전체, Q7, D3의 산출물과 X1에서 이 모듈들의 주제를 고른 산출물, 그리고 이 모듈들에서 학습자 현장의 적용안을 담은 HTML 페이지에는 파일 첫머리에 다음을 적는다(CSV는 첫 행에 이 문구를 한 칸으로).
 
 > 교육용 초안입니다. 실제 적용 전에 안전·보건 전문가, 인증기관, 노무사·변호사 등 전문가의 확인을 받으세요.
 
