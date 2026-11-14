@@ -47,7 +47,10 @@ law.go.kr의 법령 페이지는 본문을 별도 창으로 불러오는 경우�
 | 대상 | 읽히는 URL 형태(실측 2026-11-14) | 실패 신호 |
 |---|---|---|
 | KS 표준 상세 | `https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=<공백 뺀 KS 번호>&tmprKsNo=<같은 값>` (예: `KSQISO9001`). 부합 국제표준 판과 최종 개정·확인일이 나온다 | 본문에 표준명이 없음 → 목록 검색 `getStandardSearchList.do?menuId=919&topMenuId=502&upperMenuId=503&s_ksNo=<번호 일부>` |
-| 국내 법령 본문 | (law.go.kr 점검 종료 뒤 실측해 채운다) | |
+| 국내 법령 찾기(국회법률정보시스템) | `https://likms.assembly.go.kr/law/lawsLawtInqyList1010.do?genActiontypeCd=2ACT1010&genDoctreattypeCd=DOCT2004&orgCd=ORG20_0000&pageSize=50&srchNm=<법령명>` — 표에서 공포번호·시행일과 상세 링크의 contId·contSid를 얻는다 | 결과 행이 없으면 법령명이 틀렸거나 없는 법이다(띄어쓰기 확인) |
+| 국내 법령 본문(국회법률정보시스템) | `https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=<contId>&contSid=<contSid>&cachePreid=ALL&viewGb=EXE&basicDt=<YYYYMMDD>` — 지도 출처 표의 국내 법령 URL이 이 형태다. 시행 예정 조문은 `[시행일 …]` 표시가 붙어 섞여 나온다 | `lawsLawtInqyDetl1010.do`(상세 껍데기)는 제목만 있고 본문이 없다 → 1030으로 바꾼다 |
+| 국내 법령(국가법령정보센터) | (2026-11-14 21:00 점검 종료 뒤 실측해 채운다) | |
+| 고용노동부 고시 | `moel.go.kr/info/lawinfo/instruction/view.do?bbs_seq=<번호>` — 고시 번호·발령일·담당 부서가 읽힌다 | 본문·시행일은 hwpx 첨부에만 있어 WebFetch로 읽지 못한다 → 국가법령정보센터 행정규칙을 열거나, 못 열면 시행일은 「확인 못 함」 |
 
 KS의 부합 국제표준 판은 국제 최신판과 다를 때가 많다(예: KS Q ISO 2859-1은 1999판 부합, 국제판은 2026). 판 차이를 말할 때는 두 출처를 모두 연다. 블로그·법률사무소 글·뉴스는 공식 출처가 막혔을 때 「무엇이 바뀌었다는 보도가 있다」는 단서로만 쓴다. 그 내용을 사실로 말하지 않는다.
 

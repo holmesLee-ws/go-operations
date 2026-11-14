@@ -206,7 +206,7 @@
 - 핵심 질문: 품질을 검사 부서가 아니라 회사 전체의 일로 만드는 체계는 어떻게 생겼는가?
 - 목표: Apply — 「ISO 9001」 요구사항의 구조를 자기 회사 프로세스에 대응시키고, 부적합 처리와 시정 조치 흐름을 포함해 빈틈을 찾는다.
 - 만들어 볼 것: 우리 회사 품질매뉴얼 골격과 프로세스 대응표
-- 국내 근거: 「품질경영기본법」, 「KS Q ISO 9001」
+- 국내 근거: 「산업표준화법」의 품질경영, 「KS Q ISO 9001」
 - 글로벌 비교: 「ISO 9001」, 데밍의 TQM 원칙
 
 ### Q7 · 제품 인증과 제조물 책임
@@ -374,20 +374,19 @@
 
 | 명칭 | 기관 | URL | 조회일 | 확인한 사실 |
 |---|---|---|---|---|
-| 「품질경영기본법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/품질경영기본법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
-| 「산업표준화법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/산업표준화법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
-| 「전기용품 및 생활용품 안전관리법」 | 국가기술표준원 | https://kats.go.kr/content.do?cmsid=53 | 2026-11-14 | 국가기술표준원 관련법령 목록에 수록. 원문은 law.go.kr 재조회 대기 |
-| 「제품안전기본법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/제품안전기본법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
-| 「제조물 책임법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/제조물책임법 | 2026-11-14 | 법령명 띄어쓰기 「제조물 책임법」. 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
-| 「산업안전보건법」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/revision/list.do | 2026-11-14 | 고용노동부 법령 개정 게시판에 법 일부개정 공포(2026-10-27 등록), 시행령·시행규칙(2026-07-28) 게시. 원문은 law.go.kr 재조회 대기 |
-| 「산업안전보건기준에 관한 규칙」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/revision/list.do | 2026-11-14 | 최근 확인분 고용노동부령 제450호(2025-09-01), 최신 여부 확인 못 함. 원문은 law.go.kr 재조회 대기 |
+| 「산업표준화법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1961093000000003&contSid=0103&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21438호(2026-03-10). KS 제품·서비스 인증 제도와 품질경영(품질경영 및 공산품안전관리법에서 2016년에 옮겨 온 장)을 둔다. 개정분 2027-03-16 시행 예정 |
+| 「전기용품 및 생활용품 안전관리법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1974010400000002&contSid=0063&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21065호(2025-10-01). 안전인증과 안전인증표시, 표시 없는 제품의 판매 금지를 둔다. 「KC」 문자는 법률 본문에 없다(하위 법령 미확인) |
+| 「제품안전기본법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=2010020400000007&contSid=0030&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21159호(2025-12-02 공포, 2026-06-03 시행). 정부의 수거등 권고·명령과 사업자의 수거등 의무를 둔다. 「리콜」이라는 낱말은 본문에 없다 |
+| 「제조물 책임법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=2000011200000010&contSid=0006&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제14764호(2018-04-19 시행), 소관 공정거래위원회. 결함을 제조상·설계상·표시상으로 나누고 면책 사유 넷을 두며, 결함을 알고도 조치하지 않으면 일부 면책을 주장할 수 없다 |
+| 「산업안전보건법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1981123100000008&contSid=0123&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제22122호(2026-10-27). 사업주의 위험성평가 실시 의무를 법률에 둔다(2026-06-01 시행 개정으로 근로자대표 참여·주지 신설). 2026-12~2027-10 시행 예정 개정분이 여럿 있다 |
+| 「산업안전보건기준에 관한 규칙」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1990072300000002&contSid=0150&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 고용노동부령 제450호(2025-09-01 공포, 2026-03-02 시행), 예정 개정분 없음(2026-11-14 기준) |
 | 「사업장 위험성평가에 관한 지침」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/instruction/view.do?bbs_seq=20261100126 | 2026-11-14 | 고용노동부고시 제2026-73호로 전부개정(2026-11-04 게시). 시행일 확인 못 함 |
-| 「중대재해 처벌 등에 관한 법률」 | 고용노동부 | https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=16136 | 2026-11-14 | 2024-01-27부터 상시근로자 5인 이상 사업장 전면 적용(고용노동부 보도자료). 본법 원문(부칙의 적용 시기)은 law.go.kr 재조회 대기 |
+| 「중대재해 처벌 등에 관한 법률」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=2021012600000027&contSid=0002&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 법률 제17907호(2021-01-26 제정, 2022-01-27 시행), 개정 이력 없음. 부칙: 상시 근로자 50명 미만 사업장(건설업은 공사금액 50억원 미만)은 공포 후 3년이 지난 날부터 적용. 고용노동부 보도자료로 2024-01-27 전면 적용 확인(https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=16136) |
 | 「KOSHA 기술지원규정(KOSHA GUIDE)」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/archive/statu-notic/tech-support/guide/overview | 2026-11-14 | 현행 명칭 「기술지원규정」. 공단이 제·개정하는 기술적 권고 지침이며 법적 구속력은 없다. 2026-01-30 437건 정비·공표, 정비 뒤 1,039건 운영(고용노동부 보도자료 https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=18911) |
 | 「KOSHA-MS」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/business-apply-search/other-business/mfg-system/info | 2026-11-14 | 공단의 안전보건경영시스템 인증. 산업안전보건법의 자율 안전보건경영체제 지원을 수행근거로 한다. 2019-07 KOSHA 18001에서 KOSHA-MS로 인증기준 전환. 사후심사 매년 1회 이상, 3년마다 연장심사. ISO 45001과의 관계를 공단이 직접 쓴 문장은 확인 못 함 |
-| 「폐기물관리법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/폐기물관리법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
-| 「식품위생법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/식품위생법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
-| 「축산물 위생관리법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/축산물위생관리법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
+| 「폐기물관리법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1986123100000014&contSid=0159&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21129호(2026-11-12 시행), 소관 기후에너지환경부. 사업장폐기물을 배출시설 설치·운영 사업장 등에서 나오는 폐기물로 정의한다. 2027년 시행 예정 개정분 있음 |
+| 「식품위생법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1962012000000026&contSid=0208&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21525호(2026-10-08 시행). 식품안전관리인증기준(HACCP)과 위해식품등 회수 의무(회수계획 사전 보고)를 둔다. 2026-12-31 이후 시행 예정 개정분 여럿 |
+| 「축산물 위생관리법」 | 국회법률정보시스템 | https://likms.assembly.go.kr/law/lawsLawtInqyDetl1030.do?genActiontypeCd=2ACT1010&contId=1962012000000018&contSid=0113&cachePreid=ALL&viewGb=EXE&basicDt=20261114 | 2026-11-14 | 현행 법률 제21525호(2026-10-08 시행). 축산물 안전관리인증기준을 둔다. 2026-12-31 시행 예정 개정분 있음 |
 | 「식품 및 축산물 안전관리인증기준」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_207/view.do?seq=15188 | 2026-11-14 | 식약처 고시. 최신 일부개정 제2026-60호(2026-08-11) |
 | 「중소기업 스마트제조혁신 촉진에 관한 법률」 | 중소벤처기업부 | https://www.mss.go.kr/site/smba/contents/view.do?menuCd=20103010000002024122811&siteCd=smba | 2026-11-14 | 약칭 스마트제조혁신법. 중기부 소관법률 목록 수록, 2023-07-04 시행 |
 | 「KS Q ISO 9001」 | 국가표준인증종합정보센터(국가기술표준원) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO9001&tmprKsNo=KSQISO9001 | 2026-11-14 | ISO 9001:2015+Amd1:2024와 부합(IDT), 최종 개정 2024-12-13. ISO 9001:2026과 판이 다르다 |
