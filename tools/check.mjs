@@ -9,6 +9,7 @@ import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const errors = [];
+const warnings = [];
 const read = (p) => readFileSync(join(root, p), "utf8").replace(/\r\n/g, "\n");
 
 const LEVELS = ["Explain", "Apply", "Evaluate", "Develop"];
@@ -79,7 +80,7 @@ function main() {
   const refLines = mapBody.split("\n").filter((l) => /^- (국내 근거|글로벌 비교|목표|경계·연결): /.test(l)).join("\n");
   // 「」 밖에 쓴 법령명(…법·시행령·규칙·지침·고시)을 잡는다.
   for (const l of mapBody.split("\n").filter((x) => /^- [^:]+: /.test(x))) {
-    const bare = l.replace(/「[^」]*」/g, "").match(/[가-힣]+(법|시행령|시행규칙|규칙|지침|고시)(?=[의은는이가을를과와·,.\s)]|$)/g) || [];
+    const bare = l.replace(/「[^」]*」/g, "").match(/[가-힣]+(법|시행령|시행규칙|규칙|지침|고시)(?=[의은는이가을를과와도만에상으·,.\s)]|$)/g) || [];
     for (const b of bare) if (!/^(방법|기법|문법|실무 기준)$/.test(b) && !/(방법|기법|사법|작업규칙|우선규칙|판정규칙)$/.test(b)) errors.push(`「」 없이 쓴 법령명 의심: ${b}`);
   }
   const names = new Set([...refLines.matchAll(/「([^」]+)」/g)].map((m) => m[1]));
@@ -90,9 +91,18 @@ function main() {
     const cells = line.split("|").map((s) => s.trim());
     const url = cells[3] || "", fact = cells[5] || "";
     if (!OFFICIAL.some((d) => new RegExp(`^https?://([a-z0-9-]+\\.)*${d.replace(/\./g, "\\.")}(/|$)`).test(url))) errors.push(`출처 표 URL이 공식 기관 도메인이 아님: ${line.slice(0, 40)}`);
-    if (/대기|검색 결과로만/.test(fact) || /^(원문 )?확인 못 함/.test(fact)) errors.push(`출처 표 사실 미확인: ${line.slice(0, 40)}`);
+    if (/확인 대기|재조회 대기|검색 결과로만/.test(fact) || /^(원문 )?확인 못 함/.test(fact)) errors.push(`출처 표 사실 미확인: ${line.slice(0, 40)}`);
+    else if (/확인 못 함/.test(fact)) warnings.push(`출처 표에 부분 미확인: ${line.slice(0, 40)}`);
   }
-  if (/제\s?\d+\s?조/.test(mapBody)) errors.push("지도 본문에 조문 번호가 있음");
+  if (/제\s?\d+\s?조|§\s?\d/.test(mapText)) errors.push("지도에 조문 번호가 있음");
+  // 국내 근거 칸의 쉼표 항목마다 「」 형식
+  for (const l of mapBody.split("\n").filter((x) => x.startsWith("- 국내 근거: 「"))) {
+    for (const item of l.slice("- 국내 근거: ".length).split(/,\s*(?![^(]*\))/)) if (!/^「/.test(item.trim())) errors.push(`국내 근거 항목이 「」로 시작하지 않음: ${item.trim().slice(0, 30)}`);
+  }
+  // 하네스가 이름으로 부르는 모듈 id가 지도에 있는가
+  for (const f of ["CLAUDE.md", ...readdirSync(join(root, "tutor")).map((x) => `tutor/${x}`)]) {
+    for (const m of read(f).matchAll(new RegExp(`\\b([${AREAS}]\\d+)\\b`, "g"))) if (!modules.has(m[1])) errors.push(`${f}: 지도에 없는 모듈 ${m[1]}`);
+  }
   // R13: 겹침 경계 표
   if (!/^## 겹침 경계/m.test(mapText)) errors.push("지도에 「## 겹침 경계」 절 없음");
   if (!existsSync(join(root, "tutor/sources.md"))) errors.push("tutor/sources.md 없음");
@@ -112,6 +122,7 @@ function main() {
   }
   if (!read(".gitignore").split("\n").includes("learner/")) errors.push(".gitignore에 learner/ 없음");
 
+  for (const w of warnings) console.warn(`WARN ${w}`);
   if (errors.length) { console.error(errors.map((e) => `FAIL ${e}`).join("\n")); process.exit(1); }
   console.log(`OK 모듈 ${modules.size}개, 파일 ${files.length}개 검사`);
 }
