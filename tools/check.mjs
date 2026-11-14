@@ -16,7 +16,7 @@ const FIELDS = ["선수", "핵심 질문", "목표", "만들어 볼 것", "국�
 const OPTIONAL = ["경계·연결"];
 const AREAS = "FPLQMSDX";
 // R11 공식 출처 기관 도메인(spec R11 목록).
-const OFFICIAL = ["law.go.kr", "likms.assembly.go.kr", "moel.go.kr", "mfds.go.kr", "kats.go.kr", "standard.go.kr", "me.go.kr", "mss.go.kr", "kosha.or.kr", "haccp.or.kr", "iso.org", "iec.ch", "fao.org", "osha.gov", "europa.eu", "legislation.gov.uk", "fda.gov", "fssc.com"];
+const OFFICIAL = ["law.go.kr", "likms.assembly.go.kr", "moel.go.kr", "mfds.go.kr", "kats.go.kr", "standard.go.kr", "me.go.kr", "mss.go.kr", "kosha.or.kr", "haccp.or.kr", "iso.org", "iec.ch", "fao.org", "osha.gov", "europa.eu", "legislation.gov.uk", "fda.gov", "fssc.com", "hse.gov.uk", "smart-factory.kr"];
 
 function parseCurriculum(text) {
   const modules = new Map();

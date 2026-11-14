@@ -162,7 +162,7 @@
 - 핵심 질문: 불량 한 개의 진짜 비용은 얼마이고, 어디에 돈을 써야 줄어드는가?
 - 목표: Explain — 적합 품질과 설계 품질, 예방·평가·실패 비용의 관계를 설명한다.
 - 만들어 볼 것: 우리 공장 품질비용 추정표
-- 국내 근거: 실무 기준 — 국내 법령 직접 근거 없음
+- 국내 근거: 「KS Q ISO 9000」
 - 글로벌 비교: 「ISO 9000」의 품질 용어, 품질비용(PAF) 모형
 - 경계·연결: 원가 계산과 원가 차이 분석은 go-accounting.
 
@@ -179,7 +179,7 @@
 - 핵심 질문: 이번 불량은 공정이 바뀐 신호인가, 원래 있던 흔들림인가?
 - 목표: Apply — 측정값을 믿을 수 있는지(측정시스템 분석) 먼저 확인하고, 관리도로 이상 원인을 판단하고 공정능력 지수를 계산·해석한다.
 - 만들어 볼 것: 우리 공정 한 특성의 관리도와 Cp·Cpk 해석
-- 국내 근거: 실무 기준 — 국내 법령 직접 근거 없음(KS 부합 표준은 출처 표의 ISO 표준으로 확인)
+- 국내 근거: 「KS Q ISO 7870-2」, 「KS Q ISO 22514-2」
 - 글로벌 비교: 「ISO 7870-2」, 「ISO 22514-2」
 - 경계·연결: 통계 추론·실험 설계 심화는 go-data-analytics.
 
@@ -188,7 +188,7 @@
 - 핵심 질문: 전수검사를 하지 않고도 로트를 받아들일지 어떻게 정하는가?
 - 목표: Apply — AQL 기반 샘플링 계획을 읽고 검사 기준서를 만든다.
 - 만들어 볼 것: 주요 원자재 하나의 수입검사 기준서
-- 국내 근거: 실무 기준 — 국내 법령 직접 근거 없음
+- 국내 근거: 「KS Q ISO 2859-1」
 - 글로벌 비교: 「ISO 2859-1」
 - 경계·연결: 공급사 선정·평가는 go-scm.
 
@@ -225,7 +225,7 @@
 - 핵심 질문: 설비가 켜져 있던 시간 중 실제로 양품을 만든 시간은 얼마인가?
 - 목표: Apply — 가동률·성능·품질로 OEE를 계산하고 손실을 분류한다.
 - 만들어 볼 것: 우리 설비 한 대의 한 주 OEE와 손실 분해
-- 국내 근거: 실무 기준 — 국내 법령 직접 근거 없음
+- 국내 근거: 「KS X ISO 22400-2」
 - 글로벌 비교: 「ISO 22400-2」, JIPM의 설비 손실 구분
 
 ### M2 · 보전 전략
@@ -233,7 +233,7 @@
 - 핵심 질문: 고장 나면 고칠 설비, 날짜 맞춰 바꿀 부품, 상태를 보고 판단할 곳은 어떻게 가르는가?
 - 목표: Evaluate — 사후·예방·예지·신뢰성 중심 보전(RCM)을 설비별로 비교해 정한다.
 - 만들어 볼 것: 우리 핵심 설비 보전 전략 배정표
-- 국내 근거: 실무 기준 — 국내 법령 직접 근거 없음(법정 안전검사 대상 설비는 S1에서 확인)
+- 국내 근거: 「KS A IEC 60300-3-11」(법정 안전검사 대상 설비는 S1에서 확인)
 - 글로벌 비교: 「IEC 60300-3-11」
 - 경계·연결: 설비 투자의 경제성 평가는 go-finance.
 
@@ -250,7 +250,7 @@
 - 핵심 질문: 어떤 고장이 가장 위험하고, 무엇부터 막아야 하는가?
 - 목표: Apply — MTBF·MTTR을 계산하고 FMEA로 고장 모드의 우선순위를 정한다.
 - 만들어 볼 것: 핵심 설비 하나의 FMEA 표
-- 국내 근거: 실무 기준 — 국내 법령 직접 근거 없음
+- 국내 근거: 「KS A IEC 60812」
 - 글로벌 비교: 「IEC 60812」
 
 ## S · 현장 안전·환경·식품 안전 운영
@@ -278,8 +278,8 @@
 - 핵심 질문: 품질·환경·안전보건·식품안전 인증을 따로 돌리지 않고 하나의 현장 운영 달력으로 묶을 수 있는가?
 - 목표: Evaluate — 경영시스템 표준의 공통 상위 구조로 품질·환경·안전보건·식품안전 요구를 한 대응표에 묶고, 자기 현장 운영의 빈틈 우선순위를 정한다.
 - 만들어 볼 것: 우리 공장 통합 경영시스템 대응표와 월간 운영 달력
-- 국내 근거: 「KS Q ISO 9001」, 「KOSHA-MS」
-- 글로벌 비교: 「ISO 9001」, 「ISO 14001」, 「ISO 45001」, 「FSSC 22000」
+- 국내 근거: 「KS Q ISO 9001」, 「KS I ISO 14001」, 「KS Q ISO 45001」, 「KOSHA-MS」
+- 글로벌 비교: 「ISO 9001」, 「ISO 14001」, 「ISO 45001」, 「FSSC 22000」, 영국 HSE의 「HSG65」
 - 경계·연결: 안전보건관리체계 구축 의무와 「중대재해 처벌 등에 관한 법률」의 의무는 go-hse, 사고 뒤 형사 책임은 go-compliance-and-legal.
 
 ### S4 · 현장 사건 조사와 시정 조치
@@ -296,7 +296,7 @@
 - 핵심 질문: 우리 라인이 쓰는 원료·에너지와 내보내는 폐기물을 생산 운영 지표로 어떻게 줄이는가?
 - 목표: Apply — 공정별 환경 측면(원료·에너지·폐기물)을 목록으로 만들고 「ISO 14001」의 운영 관리로 줄이는 계획을 세운다.
 - 만들어 볼 것: 우리 라인 환경 측면 목록과 줄이기 계획
-- 국내 근거: 「폐기물관리법」(사업장폐기물이 걸리는 조건까지)
+- 국내 근거: 「폐기물관리법」(사업장폐기물이 걸리는 조건까지), 「KS I ISO 14001」
 - 글로벌 비교: 「ISO 14001」
 - 경계·연결: 화학물질 관리·배출시설 인허가·폐기물 처리 의무는 go-hse, 탄소 회계·온실가스·지속가능성 공시는 go-esg.
 
@@ -305,7 +305,7 @@
 - 핵심 질문: 식품 공정에서 위해를 어디서 반드시 잡아야 하고, 그것을 어떻게 증명하고 문제가 난 제품을 어떻게 되찾는가?
 - 목표: Apply — 위해요소 분석으로 중요관리점(CCP)을 정하고 한계기준·모니터링·개선 조치, 이력 추적·회수 절차를 설계한다.
 - 만들어 볼 것: 우리 제품 하나의 HACCP 계획 초안과 회수·추적 절차
-- 국내 근거: 「식품위생법」, 「축산물 위생관리법」, 「식품 및 축산물 안전관리인증기준」
+- 국내 근거: 「식품위생법」, 「축산물 위생관리법」, 「식품 및 축산물 안전관리인증기준」, 「식품 등의 표시·광고에 관한 법률」, 「식품 등 이력추적관리기준」, 「위해식품등 회수지침」, 「KS Q ISO 22000」
 - 글로벌 비교: 「Codex 식품위생 일반원칙(CXC 1-1969)」, 「ISO 22000」, 「FSSC 22000」, 「미국 식품안전현대화법(FSMA)」
 - 경계·연결: 작업장 위생·세척 화학물질 안전·위생교육처럼 위생과 안전보건이 만나는 부분은 go-hse.
 
@@ -316,7 +316,7 @@
 - 핵심 질문: 현장 지표가 많은데 왜 아무도 그 숫자로 행동을 바꾸지 않는가?
 - 목표: Apply — 운영 성과 목표에서 현장 KPI를 내려 정의·산식·주기·책임자를 정한다.
 - 만들어 볼 것: 우리 공장 현장 KPI 정의서
-- 국내 근거: 실무 기준 — 국내 법령 직접 근거 없음
+- 국내 근거: 「KS X ISO 22400-2」
 - 글로벌 비교: 「ISO 22400-2」
 - 경계·연결: 전사 성과관리·BSC·예산은 go-control.
 
@@ -333,7 +333,7 @@
 - 핵심 질문: 계획(ERP)과 현장(설비) 사이에서 데이터는 어떻게 흘러야 하는가?
 - 목표: Evaluate — 현장 데이터 흐름을 그리고 스마트공장 도입 범위와 순서를 판단한다.
 - 만들어 볼 것: 우리 공장 데이터 흐름도와 스마트공장 단계 도입안
-- 국내 근거: 「중소기업 스마트제조혁신 촉진에 관한 법률」
+- 국내 근거: 「중소기업 스마트제조혁신 촉진에 관한 법률」, 「스마트공장 수준확인 사업」, 「KS X IEC 62264-1」
 - 글로벌 비교: 「IEC 62264-1」(ISA-95)
 - 경계·연결: 시스템 선정·도입·IT 운영은 go-mis, 데이터 분석 기법은 go-data-analytics.
 
@@ -380,7 +380,7 @@
 | 「제품안전기본법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/제품안전기본법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
 | 「제조물 책임법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/제조물책임법 | 2026-11-14 | 법령명 띄어쓰기 「제조물 책임법」. 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
 | 「산업안전보건법」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/revision/list.do | 2026-11-14 | 고용노동부 법령 개정 게시판에 법 일부개정 공포(2026-10-27 등록), 시행령·시행규칙(2026-07-28) 게시. 원문은 law.go.kr 재조회 대기 |
-| 「산업안전보건기준에 관한 규칙」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/revision/list.do | 2026-11-14 | 최근 확인분 고용노동부령 제450호(2025-09-01). 원문은 law.go.kr 재조회 대기 |
+| 「산업안전보건기준에 관한 규칙」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/revision/list.do | 2026-11-14 | 최근 확인분 고용노동부령 제450호(2025-09-01), 최신 여부 확인 못 함. 원문은 law.go.kr 재조회 대기 |
 | 「사업장 위험성평가에 관한 지침」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/instruction/view.do?bbs_seq=20261100126 | 2026-11-14 | 고용노동부고시 제2026-73호로 전부개정(2026-11-04 게시). 시행일 확인 못 함 |
 | 「중대재해 처벌 등에 관한 법률」 | 고용노동부 | https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=16136 | 2026-11-14 | 2024-01-27부터 상시근로자 5인 이상 사업장 전면 적용(고용노동부 보도자료). 본법 원문(부칙의 적용 시기)은 law.go.kr 재조회 대기 |
 | 「KOSHA 기술지원규정(KOSHA GUIDE)」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/archive/statu-notic/tech-support/guide/overview | 2026-11-14 | 현행 명칭 「기술지원규정」. 공단이 제·개정하는 기술적 권고 지침이며 법적 구속력은 없다. 2026-01-30 437건 정비·공표, 정비 뒤 1,039건 운영(고용노동부 보도자료 https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=18911) |
@@ -388,14 +388,30 @@
 | 「폐기물관리법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/폐기물관리법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
 | 「식품위생법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/식품위생법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
 | 「축산물 위생관리법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/축산물위생관리법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
-| 「식품 및 축산물 안전관리인증기준」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_207/list.do | 2026-11-14 | 식약처 고시. 최신 일부개정 제2026-60호(2026-08-11) |
+| 「식품 및 축산물 안전관리인증기준」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_207/view.do?seq=15188 | 2026-11-14 | 식약처 고시. 최신 일부개정 제2026-60호(2026-08-11) |
 | 「중소기업 스마트제조혁신 촉진에 관한 법률」 | 중소벤처기업부 | https://www.mss.go.kr/site/smba/contents/view.do?menuCd=20103010000002024122811&siteCd=smba | 2026-11-14 | 약칭 스마트제조혁신법. 중기부 소관법률 목록 수록, 2023-07-04 시행 |
-| 「KS Q ISO 9001」 | 국가표준인증종합정보센터(국가기술표준원) | https://standard.go.kr/ | 2026-11-14 | ISO 9001:2015+Amd1:2024와 부합(IDT), 최종 개정 2024-12-13. ISO 9001:2026과 판이 다르다 |
+| 「KS Q ISO 9001」 | 국가표준인증종합정보센터(국가기술표준원) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO9001&tmprKsNo=KSQISO9001 | 2026-11-14 | ISO 9001:2015+Amd1:2024와 부합(IDT), 최종 개정 2024-12-13. ISO 9001:2026과 판이 다르다 |
+| 「KS Q ISO 9000」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO9000&tmprKsNo=KSQISO9000 | 2026-11-14 | ISO 9000:2005 IDT로 표시(이력에는 2015-12-29 ISO 9000:2015 반영 개정이 있어 포털 기록이 어긋남), 최종 확인 2026-08-25. 국제판 ISO 9000:2026과 다르다 |
+| 「KS Q ISO 7870-2」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO7870-2&tmprKsNo=KSQISO7870-2 | 2026-11-14 | ISO 7870-2:2023 IDT, 최종 개정 2026-03-27 |
+| 「KS Q ISO 22514-2」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO22514-2&tmprKsNo=KSQISO22514-2 | 2026-11-14 | ISO 22514-2:2013 IDT, 최종 확인 2023-04-21. 국제판 2026과 다르다 |
+| 「KS Q ISO 2859-1」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO2859-1&tmprKsNo=KSQISO2859-1 | 2026-11-14 | ISO 2859-1:1999 IDT, 최종 개정 2023-12-29. 국제판 2026과 다르다 |
+| 「KS X ISO 22400-2」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSXISO22400-2&tmprKsNo=KSXISO22400-2 | 2026-11-14 | ISO 22400-2:2014 IDT, 제정 2024-12-13 |
+| 「KS A IEC 60300-3-11」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSAIEC60300-3-11&tmprKsNo=KSAIEC60300-3-11 | 2026-11-14 | IEC 60300-3-11 Ed.2.0 IDT, 최종 확인 2024-12-18 |
+| 「KS A IEC 60812」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSAIEC60812&tmprKsNo=KSAIEC60812 | 2026-11-14 | 2003-11-29 제정 뒤 확인만 이어짐(최종 2023-06-26). 부합 IEC 판 정보 없음 — 현행 IEC 60812:2018과 같다고 말하지 않는다 |
+| 「KS X IEC 62264-1」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSXIEC62264-1&tmprKsNo=KSXIEC62264-1 | 2026-11-14 | IEC 62264-1:2013 IDT, 제정 2024-12-13 |
+| 「KS I ISO 14001」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSIISO14001&tmprKsNo=KSIISO14001 | 2026-11-14 | ISO 14001:2015 IDT, 최종 확인 2026-11-12. 국제판 2026과 다르다 |
+| 「KS Q ISO 45001」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO45001&tmprKsNo=KSQISO45001 | 2026-11-14 | ISO 45001:2018 IDT, 최종 확인 2024-10-04 |
+| 「KS Q ISO 22000」 | 국가기술표준원(e나라표준인증) | https://www.standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSQISO22000&tmprKsNo=KSQISO22000 | 2026-11-14 | ISO 22000:2018 IDT, 최종 확인 2026-08-25 |
+| 「스마트공장 수준확인 사업」 | 중소벤처기업부·스마트제조혁신추진단 | https://www.smart-factory.kr/ | 2026-11-14 | 중소벤처기업부 공고 제2026-45호(2026-01-30)의 사업 명칭. 스마트화 수준확인서와 심사보고서를 준다. 공고 사본 https://gecci.korcham.net/file/dext5uploaddata/2026/2026년도%20스마트공장%20수준확인%20사업%20공고__.pdf (지원 규모는 해마다 바뀌므로 세션에서 공고로 확인) |
+| 「식품 등의 표시·광고에 관한 법률」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_203/list.do | 2026-11-14 | 정식 명칭 확인(식약처 법령 알림, 소관 식품표시광고정책과). 위해식품 의무회수의 근거 법 가운데 하나 |
+| 「식품 등 이력추적관리기준」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_207/view.do?seq=15169 | 2026-11-14 | 식약처 고시 제2026-39호(2026-05-15) 개정 |
+| 「위해식품등 회수지침」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_1059/view.do?seq=15143 | 2026-11-14 | 지침서(2025-02-17). 의무회수와 자율회수, 회수등급 1~3등급 |
+| 「HSG65」 | 영국 HSE | https://www.hse.gov.uk/pubns/books/hsg65.htm | 2026-11-14 | Managing for health and safety, 3판(2013). Plan-Do-Check-Act 운영 지침 |
 | 「ISO 9000」 | ISO | https://www.iso.org/standard/9000 | 2026-11-14 | ISO 9000:2026(5판) 발행(2026-05). 품질경영 기본 원칙 7가지와 용어 |
 | 「ISO 9001」 | ISO | https://www.iso.org/standard/88464.html | 2026-11-14 | ISO 9001:2026 발행(2026-09-16), 2015판 폐지 |
 | 「ISO 7870-2」 | ISO | https://www.iso.org/standard/78859.html | 2026-11-14 | ISO 7870-2:2023 슈하트 관리도 |
 | 「ISO 22514-2」 | ISO | https://www.iso.org/standard/88883.html | 2026-11-14 | ISO 22514-2:2026 발행(2026-02-06) 공정능력·성능 |
-| 「ISO 2859-1」 | ISO | https://www.iso.org/standard/2859-1 | 2026-11-14 | ISO 2859-1:2026 발행(2026-01-22), 1999판 폐지 |
+| 「ISO 2859-1」 | ISO | https://www.iso.org/standard/85464.html | 2026-11-14 | ISO 2859-1:2026 발행(2026-01-22), 1999판 폐지 |
 | 「ISO 13053-1」 | ISO | https://www.iso.org/standard/52901.html | 2026-11-14 | ISO 13053-1:2011 6시그마 DMAIC, 2022 재확인 |
 | 「ISO 22400-2」 | ISO | https://www.iso.org/standard/54497.html | 2026-11-14 | ISO 22400-2:2014+Amd1:2017 제조 운영 KPI. 2판 개정 진행 중(https://www.iso.org/standard/87563.html) |
 | 「IEC 60300-3-11」 | IEC | https://webstore.iec.ch/en/publication/1296 | 2026-11-14 | IEC 60300-3-11:2009 신뢰성 중심 보전(RCM) |
@@ -405,7 +421,7 @@
 | 「ISO 14001」 | ISO | https://www.iso.org/standard/14001 | 2026-11-14 | ISO 14001:2026 발행(2026-04-15) |
 | 「ISO 22000」 | ISO | https://www.iso.org/standard/65464.html | 2026-11-14 | ISO 22000:2018 유효, 개정 진행 중 |
 | 「FSSC 22000」 | FSSC Foundation | https://www.fssc.com/fssc-22000/version-7-faq/ | 2026-11-14 | Version 7 공개(2026-05-01). V6 심사는 2027-04-30까지 |
-| 「Codex 식품위생 일반원칙(CXC 1-1969)」 | FAO/WHO Codex | https://codex.fao.org/codex-texts/find-a-codex-text | 2026-11-14 | CXC 1-1969 최종 개정 2022, HACCP 7원칙 포함 |
+| 「Codex 식품위생 일반원칙(CXC 1-1969)」 | FAO/WHO Codex | https://openknowledge.fao.org/handle/20.500.14283/cc6125en | 2026-11-14 | 1969 채택, 최종 개정 2022(2023 발행본 표지). HACCP 원칙 포함 |
 | 「미국 식품안전현대화법(FSMA)」 | 미국 FDA | https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma | 2026-11-14 | FDA FSMA 공식 안내 |
 | 「미국 산업안전보건법(OSH Act)」 | 미국 OSHA | https://www.osha.gov/laws-regs/oshact/completeoshact | 2026-11-14 | OSH Act of 1970 전문 |
 | 「EU 산업안전보건 기본 지침(89/391/EEC)」 | 유럽 산업안전보건청(EU-OSHA) | https://osha.europa.eu/en/legislation/directives/the-osh-framework-directive/the-osh-framework-directive-introduction | 2026-11-14 | 1989년 채택된 EU 산업안전보건의 기본 지침. 유럽 전역의 최소 요건이며 회원국은 더 엄격하게 정할 수 있다. 사업주의 위험성평가·예방 조치·정보 제공·교육·근로자 참여 의무를 정한다. 원문은 https://eur-lex.europa.eu/eli/dir/1989/391/oj (자동 조회는 첫 화면으로 돌아가 원문 미열람) |
