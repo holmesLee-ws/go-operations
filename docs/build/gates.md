@@ -35,4 +35,4 @@
 - 국회법률정보시스템(likms): 목록 조회(`lawsLawtInqyList1010.do?…&srchNm=<법령명>`) → 본문(`lawsLawtInqyDetl1030.do?…&contId&contSid`)이 WebFetch로 읽힌다. 상세 껍데기 1010은 본문이 없다. 긴 법(기준 규칙 약 26만 자)은 offset으로 이어 읽는다.
 - 고용노동부·식약처 고시 상세는 번호·발령일만 있고 본문은 첨부(hwpx·대용량 PDF)라 WebFetch로 읽지 못한다.
 - EUR-Lex는 자동 조회가 첫 화면으로 돌아간다. 유럽의회 입법 관측소(oeil.europarl.europa.eu) 요약은 읽힌다.
-- law.go.kr는 2026-11-13 21:00~11-14 21:00 시스템 점검. 행정규칙(고시) 본문 경로는 점검 뒤 실측한다.
+- law.go.kr(2026-11-14 21:00 점검 종료 뒤 실측): 본문은 조각 URL `admRulLsInfoR.do?admRulSeq=`(행정규칙)·`lsInfoR.do?lsiSeq=&efYd=`(법령)만 WebFetch로 읽힌다. 이름 주소·팝업은 본문이 없다. 번호(seq)는 WebFetch로 얻지 못해(목록 링크가 스크립트) 지도 출처 표의 고시 행에 그 판의 조각 URL을 두고, 법령은 국회법률정보시스템을 1순위로 둔다.
