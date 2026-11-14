@@ -2,7 +2,7 @@
 
 큰 윤곽만 둔다. 강의 내용은 여기 없다. 튜터가 세션마다 학습자의 수준·목표·현장에 맞춰 조사하고 만든다.
 
-- 기본 순서는 F → P → L → Q → M → S → D → X다. 선수 관계만 지키면 학습자의 목표에 맞춰 순서를 바꿔도 된다. 식품 업종 학습자에게는 S6을, 안전 사고가 급한 현장에는 S1~S3을 앞당겨도 된다.
+- 기본 순서는 F → P → L → Q → M → S → D → X다. 선수 관계만 지키면 학습자의 목표에 맞춰 순서를 바꿔도 된다. 식품 업종 학습자에게는 S6을, 안전 사고가 급한 현장에는 S1~S2를 앞당겨도 된다.
 - 목표 수준은 그 모듈을 마쳤다고 볼 최소 수준이다. 수준의 뜻은 [tutor/assessment.md](../tutor/assessment.md)에 있다.
 - 「국내 근거」는 그 모듈의 뼈대가 되는 국내 법령·고시·KS다. 「글로벌 비교」는 비교 축이다. 법령·표준 명칭은 「」로 쓰고 아래 출처 표에 공식 URL과 조회일을 둔다. 지도에는 조문 번호를 쓰지 않는다. 조문·기준값·적용 시기는 세션에서 튜터가 공식 출처로 확인한다([tutor/sources.md](../tutor/sources.md)).
 - 「경계·연결」은 다른 go-* 워크스페이스가 깊게 다루는 주제다. 여기서는 현장 운영 판단에 필요한 만큼만 다룬다.
@@ -261,7 +261,7 @@
 - 만들어 볼 것: 우리 설비 한 대·작업 하나의 안전 기준 대조표(출처 링크 포함)
 - 국내 근거: 「산업안전보건기준에 관한 규칙」, 「KOSHA GUIDE」
 - 글로벌 비교: 「미국 산업안전보건법(OSH Act)」의 OSHA 기준, 「EU 산업안전보건 기본 지침(89/391/EEC)」
-- 경계·연결: 산업안전보건법의 사업주 의무 체계 전반과 근로자 보호·교육은 go-hr.
+- 경계·연결: 「산업안전보건법」의 사업주 의무 체계 전반과 근로자 보호·교육은 go-hr.
 
 ### S2 · 위험성평가의 실행
 - 선수: S1, F4
@@ -379,8 +379,8 @@
 | 「산업안전보건기준에 관한 규칙」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/revision/list.do | 2026-11-14 | 최근 확인분 고용노동부령 제450호(2025-09-01). 원문은 law.go.kr 재조회 대기 |
 | 「사업장 위험성평가에 관한 지침」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/instruction/view.do?bbs_seq=20261100126 | 2026-11-14 | 고용노동부고시 제2026-73호로 전부개정(2026-11-04 게시). 시행일 확인 못 함 |
 | 「중대재해 처벌 등에 관한 법률 시행령」 | 고용노동부 | https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=16136 | 2026-11-14 | 2024-01-27부터 상시근로자 5인 이상 사업장 전면 적용(고용노동부 보도자료). 시행령 원문은 law.go.kr 재조회 대기 |
-| 「KOSHA GUIDE」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/ | 2026-11-14 | 공식 페이지 확인 대기 |
-| 「KOSHA-MS」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/ | 2026-11-14 | 공식 페이지 확인 대기 |
+| 「KOSHA GUIDE」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/archive/statu-notic/tech-support/guide/overview | 2026-11-14 | 현행 명칭 「기술지원규정」. 공단이 제·개정하는 기술적 권고 지침이며 법적 구속력은 없다. 2026-01-30 437건 정비·공표, 정비 뒤 1,039건 운영(고용노동부 보도자료 https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=18911) |
+| 「KOSHA-MS」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/business-apply-search/other-business/mfg-system/info | 2026-11-14 | 공단의 안전보건경영시스템 인증. 산업안전보건법의 자율 안전보건경영체제 지원을 수행근거로 한다. 2019-07 KOSHA 18001에서 KOSHA-MS로 인증기준 전환. 사후심사 매년 1회 이상, 3년마다 연장심사. ISO 45001과의 관계를 공단이 직접 쓴 문장은 확인 못 함 |
 | 「화학물질관리법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/화학물질관리법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
 | 「폐기물관리법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/폐기물관리법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
 | 「식품위생법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/식품위생법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
@@ -405,8 +405,8 @@
 | 「Codex 식품위생 일반원칙(CXC 1-1969)」 | FAO/WHO Codex | https://codex.fao.org/codex-texts/find-a-codex-text | 2026-11-14 | CXC 1-1969 최종 개정 2022, HACCP 7원칙 포함 |
 | 「미국 식품안전현대화법(FSMA)」 | 미국 FDA | https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma | 2026-11-14 | FDA FSMA 공식 안내 |
 | 「미국 산업안전보건법(OSH Act)」 | 미국 OSHA | https://www.osha.gov/laws-regs/oshact/completeoshact | 2026-11-14 | OSH Act of 1970 전문 |
-| 「EU 산업안전보건 기본 지침(89/391/EEC)」 | EUR-Lex | https://eur-lex.europa.eu/eli/dir/1989/391/oj | 2026-11-14 | 원문 확인 못 함(EUR-Lex 리다이렉트). 21:00 재조회 묶음에서 다시 시도 |
-| 「EU 제조물책임 지침(2024/2853)」 | EUR-Lex | https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng | 2026-11-14 | 검색 결과로만 확인, 적용일 확인 못 함. 재조회 대기 |
+| 「EU 산업안전보건 기본 지침(89/391/EEC)」 | 유럽 산업안전보건청(EU-OSHA) | https://osha.europa.eu/en/legislation/directives/the-osh-framework-directive/the-osh-framework-directive-introduction | 2026-11-14 | 1989년 채택된 EU 산업안전보건의 기본 지침. 유럽 전역의 최소 요건이며 회원국은 더 엄격하게 정할 수 있다. 사업주의 위험성평가·예방 조치·정보 제공·교육·근로자 참여 의무를 정한다. 원문은 https://eur-lex.europa.eu/eli/dir/1989/391/oj (자동 조회는 첫 화면으로 돌아가 원문 미열람) |
+| 「EU 제조물책임 지침(2024/2853)」 | EUR-Lex 요약(유럽연합) | https://eur-lex.europa.eu/EN/legal-content/summary/defective-products-liability.html | 2026-11-14 | 2026-12-09 이후 출시·사용 개시된 제품에 적용되고, 그 전 제품은 종전 85/374/EEC 규율을 따른다. 회원국 이행 기한 2026-12-09(유럽의회 입법 요약 https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1795969). 원문 https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng |
 | 「영국 법인 과실치사법(2007)」 | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2007/19/contents | 2026-11-14 | Corporate Manslaughter and Corporate Homicide Act 2007 |
 
 학술·실무 출처(명칭 표기 없이 본문에서 쓰는 것):

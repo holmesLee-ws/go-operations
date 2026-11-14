@@ -2,7 +2,7 @@
 
 ## 수준
 
-네 단계를 쓴다. Explain이 나머지의 선행 수준이다. 단계는 Bloom 개정 분류(Anderson·Krathwohl 2001)의 인지 과정 위계(이해 → 적용 → 평가 → 창안)를 운영 실무의 증거로 옮긴 것이다.
+네 단계를 쓴다. Explain이 나머지의 선행 수준이다. 단계는 Bloom 개정 분류(Anderson·Krathwohl 2001)의 인지 과정 위계(기억·이해·적용·분석·평가·창안 6단계) 가운데 이해·적용·평가·창안 네 단계를 운영 실무의 증거로 옮긴 것이다. 기억은 증거로 쓰지 않고(외운 답은 증거가 아니다), 분석은 적용과 평가의 탐침 안에서 함께 본다.
 
 | 수준 | 이름 | 증거 |
 |---|---|---|
@@ -82,4 +82,4 @@
 
 Kalyuga(2007)의 전문성 역전 효과: 초심자에게 효과적인 설계가 숙련자에게는 효과가 없거나 해로울 수 있다. 그래서 빠른 사전 평가로 경로를 나눈다. <https://doi.org/10.1007/s10648-007-9054-3>
 Dunlosky 외(2013): 연습 시험과 분산 연습만 높은 효용 등급을 받았다. <https://doi.org/10.1177/1529100612453266>
-Anderson·Krathwohl 편(2001), A Taxonomy for Learning, Teaching, and Assessing — 개정 Bloom 분류의 인지 과정 위계. Pearson New International Edition ISBN 9781292042848.
+Anderson·Krathwohl 편(2001), A Taxonomy for Learning, Teaching, and Assessing — 개정 Bloom 분류의 인지 과정 위계. 원판 Longman(2001). 이 리포는 재판인 Pearson New International Edition(2013, ISBN 9781292042848) 기준으로 인용한다.
