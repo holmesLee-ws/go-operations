@@ -63,7 +63,7 @@
 
 ## 기록 형식
 
-`learner/state.json`의 `modules`에 모듈 id를 키로 둔다.
+`learner/state.json`의 `modules`에 모듈 id를 키로 둔다. 같은 모듈은 기존 항목을 고친다(키를 두 번 쓰지 않는다). 직전 설명이나 덧붙인 말을 되말한 답은 `evidence`에 「스스로 수정·적용」으로 적지 않는다.
 
 ```json
 "F3": {
