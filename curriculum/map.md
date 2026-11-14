@@ -366,4 +366,56 @@
 
 ## 출처
 
-(G1 확인 결과로 채운다)
+튜터는 학습자에게 말하기 전에 이 표의 공식 출처를 다시 조회한다(tutor/sources.md). 표의 사실은 조회일 기준이다.
+
+| 명칭 | 기관 | URL | 조회일 | 확인한 사실 |
+|---|---|---|---|---|
+| 「품질경영기본법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/품질경영기본법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
+| 「산업표준화법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/산업표준화법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
+| 「전기용품 및 생활용품 안전관리법」 | 국가기술표준원 | https://kats.go.kr/content.do?cmsid=53 | 2026-11-14 | 국가기술표준원 관련법령 목록에 수록. 원문은 law.go.kr 재조회 대기 |
+| 「제품안전기본법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/제품안전기본법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
+| 「제조물 책임법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/제조물책임법 | 2026-11-14 | 법령명 띄어쓰기 「제조물 책임법」. 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
+| 「산업안전보건법」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/revision/list.do | 2026-11-14 | 고용노동부 법령 개정 게시판에 법 일부개정 공포(2026-10-27 등록), 시행령·시행규칙(2026-07-28) 게시. 원문은 law.go.kr 재조회 대기 |
+| 「산업안전보건기준에 관한 규칙」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/revision/list.do | 2026-11-14 | 최근 확인분 고용노동부령 제450호(2025-09-01). 원문은 law.go.kr 재조회 대기 |
+| 「사업장 위험성평가에 관한 지침」 | 고용노동부 | https://www.moel.go.kr/info/lawinfo/instruction/view.do?bbs_seq=20261100126 | 2026-11-14 | 고용노동부고시 제2026-73호로 전부개정(2026-11-04 게시). 시행일 확인 못 함 |
+| 「중대재해 처벌 등에 관한 법률 시행령」 | 고용노동부 | https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=16136 | 2026-11-14 | 2024-01-27부터 상시근로자 5인 이상 사업장 전면 적용(고용노동부 보도자료). 시행령 원문은 law.go.kr 재조회 대기 |
+| 「KOSHA GUIDE」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/ | 2026-11-14 | 공식 페이지 확인 대기 |
+| 「KOSHA-MS」 | 한국산업안전보건공단 | https://portal.kosha.or.kr/ | 2026-11-14 | 공식 페이지 확인 대기 |
+| 「화학물질관리법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/화학물질관리법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
+| 「폐기물관리법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/폐기물관리법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
+| 「식품위생법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/식품위생법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
+| 「축산물 위생관리법」 | 법제처 국가법령정보센터 | https://www.law.go.kr/법령/축산물위생관리법 | 2026-11-14 | 법령 원문 확인 대기 — law.go.kr 점검(2026-11-14 21:00까지)으로 21:00 이후 재조회 |
+| 「식품 및 축산물 안전관리인증기준」 | 식품의약품안전처 | https://www.mfds.go.kr/brd/m_207/list.do | 2026-11-14 | 식약처 고시. 최신 일부개정 제2026-60호(2026-08-11) |
+| 「중소기업 스마트제조혁신 촉진에 관한 법률」 | 중소벤처기업부 | https://www.mss.go.kr/site/smba/contents/view.do?menuCd=20103010000002024122811&siteCd=smba | 2026-11-14 | 약칭 스마트제조혁신법. 중기부 소관법률 목록 수록, 2023-07-04 시행 |
+| 「KS Q ISO 9001」 | 국가표준인증종합정보센터(국가기술표준원) | https://standard.go.kr/ | 2026-11-14 | ISO 9001:2015+Amd1:2024와 부합(IDT), 최종 개정 2024-12-13. ISO 9001:2026과 판이 다르다 |
+| 「ISO 9000」 | ISO | https://www.iso.org/standard/9000 | 2026-11-14 | ISO 9000:2026(5판) 발행(2026-05). 품질경영 기본 원칙 7가지와 용어 |
+| 「ISO 9001」 | ISO | https://www.iso.org/standard/88464.html | 2026-11-14 | ISO 9001:2026 발행(2026-09-16), 2015판 폐지 |
+| 「ISO 7870-2」 | ISO | https://www.iso.org/standard/78859.html | 2026-11-14 | ISO 7870-2:2023 슈하트 관리도 |
+| 「ISO 22514-2」 | ISO | https://www.iso.org/standard/88883.html | 2026-11-14 | ISO 22514-2:2026 발행(2026-02-06) 공정능력·성능 |
+| 「ISO 2859-1」 | ISO | https://www.iso.org/standard/2859-1 | 2026-11-14 | ISO 2859-1:2026 발행(2026-01-22), 1999판 폐지 |
+| 「ISO 13053-1」 | ISO | https://www.iso.org/standard/52901.html | 2026-11-14 | ISO 13053-1:2011 6시그마 DMAIC, 2022 재확인 |
+| 「ISO 22400-2」 | ISO | https://www.iso.org/standard/54497.html | 2026-11-14 | ISO 22400-2:2014+Amd1:2017 제조 운영 KPI. 2판 개정 진행 중(https://www.iso.org/standard/87563.html) |
+| 「IEC 60300-3-11」 | IEC | https://webstore.iec.ch/en/publication/1296 | 2026-11-14 | IEC 60300-3-11:2009 신뢰성 중심 보전(RCM) |
+| 「IEC 60812」 | IEC | https://webstore.iec.ch/en/publication/26359 | 2026-11-14 | IEC 60812:2018 FMEA·FMECA |
+| 「IEC 62264-1」 | IEC | https://webstore.iec.ch/en/publication/6675 | 2026-11-14 | IEC 62264-1:2013 기업-제어 시스템 통합(ISA-95) |
+| 「ISO 45001」 | ISO | https://www.iso.org/standard/45001/rev | 2026-11-14 | ISO 45001:2018+Amd1:2024 유효. 개정판 DIS 진행 중, 발행일 미정 |
+| 「ISO 14001」 | ISO | https://www.iso.org/standard/14001 | 2026-11-14 | ISO 14001:2026 발행(2026-04-15) |
+| 「ISO 22000」 | ISO | https://www.iso.org/standard/65464.html | 2026-11-14 | ISO 22000:2018 유효, 개정 진행 중 |
+| 「FSSC 22000」 | FSSC Foundation | https://www.fssc.com/fssc-22000/version-7-faq/ | 2026-11-14 | Version 7 공개(2026-05-01). V6 심사는 2027-04-30까지 |
+| 「Codex 식품위생 일반원칙(CXC 1-1969)」 | FAO/WHO Codex | https://codex.fao.org/codex-texts/find-a-codex-text | 2026-11-14 | CXC 1-1969 최종 개정 2022, HACCP 7원칙 포함 |
+| 「미국 식품안전현대화법(FSMA)」 | 미국 FDA | https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma | 2026-11-14 | FDA FSMA 공식 안내 |
+| 「미국 산업안전보건법(OSH Act)」 | 미국 OSHA | https://www.osha.gov/laws-regs/oshact/completeoshact | 2026-11-14 | OSH Act of 1970 전문 |
+| 「EU 산업안전보건 기본 지침(89/391/EEC)」 | EUR-Lex | https://eur-lex.europa.eu/eli/dir/1989/391/oj | 2026-11-14 | 원문 확인 못 함(EUR-Lex 리다이렉트). 21:00 재조회 묶음에서 다시 시도 |
+| 「EU 제조물책임 지침(2024/2853)」 | EUR-Lex | https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng | 2026-11-14 | 검색 결과로만 확인, 적용일 확인 못 함. 재조회 대기 |
+| 「영국 법인 과실치사법(2007)」 | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2007/19/contents | 2026-11-14 | Corporate Manslaughter and Corporate Homicide Act 2007 |
+
+학술·실무 출처(명칭 표기 없이 본문에서 쓰는 것):
+
+- Little(1961), A Proof for the Queuing Formula L = λW — <https://doi.org/10.1287/opre.9.3.383> (2026-11-14)
+- Hayes·Wheelwright(1979), Link Manufacturing Process and Product Life Cycles — <https://hbr.org/1979/01/link-manufacturing-process-and-product-life-cycles> (2026-11-14)
+- ILO, Introduction to Work Study(4판) — <https://www.ilo.org/publications/introduction-work-study-4th-revised-edition> (2026-11-14, 검색 결과로 확인)
+- 도요타 공식 TPS 설명 — <https://global.toyota/en/company/vision-and-philosophy/production-system/> (2026-11-14)
+- Lean Enterprise Institute — <https://www.lean.org/> (2026-11-14)
+- ASCM CPIM — <https://www.ascm.org/learning-development/certifications-credentials/cpim/> (2026-11-14)
+- JIPM TPM — <https://www.jipm.or.jp/business/tpm/> (2026-11-14)
+

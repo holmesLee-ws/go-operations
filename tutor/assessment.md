@@ -82,3 +82,4 @@
 
 Kalyuga(2007)의 전문성 역전 효과: 초심자에게 효과적인 설계가 숙련자에게는 효과가 없거나 해로울 수 있다. 그래서 빠른 사전 평가로 경로를 나눈다. <https://doi.org/10.1007/s10648-007-9054-3>
 Dunlosky 외(2013): 연습 시험과 분산 연습만 높은 효용 등급을 받았다. <https://doi.org/10.1177/1529100612453266>
+Anderson·Krathwohl 편(2001), A Taxonomy for Learning, Teaching, and Assessing — 개정 Bloom 분류의 인지 과정 위계. Pearson New International Edition ISBN 9781292042848.
