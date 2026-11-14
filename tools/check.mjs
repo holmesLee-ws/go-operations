@@ -59,7 +59,7 @@ function parseCurriculum(text) {
 
 function findVisualAssets(files) {
   const allowedJs = /^tools\/.*\.m?js$/;
-  return files.filter((f) => /\.(html?|css|svg|png|jpe?g|gif|webp|avif)$/i.test(f) || (/\.m?js$/i.test(f) && !allowedJs.test(f)));
+  return files.filter((f) => /\.(html?|css|svg|png|jpe?g|gif|webp|avif|ico|bmp)$/i.test(f) || (/\.m?js$/i.test(f) && !allowedJs.test(f)));
 }
 
 function findTemplateMarkup(name, text) {
